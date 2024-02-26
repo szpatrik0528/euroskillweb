@@ -3,22 +3,77 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DineEase</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <title>DineEase Showcase Website - About Us</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+            integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+            integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <link rel="stylesheet" href="dineease.css">
+        <script src="dineease.js"></script>
     </head>
     <body>
         <div class="container" id="sheet">
             <header>
-                <nav></nav>
-            </header>
-            <main>
-                <div id="top3"></div>
-                <div id="velemeny"></div>
-                <div id="keresosav"></div>
-            </main>
-            <footer></footer>
-        </div>
-    </body>
-</html>
+                <nav>
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#"><img
+                                    src="images/Logovector.svg"
+                                    alt="Bootstrap" width="auto"
+                                    height="auto"></a>
+
+                            <button class="navbar-toggler" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation">
+                            </button>
+                            <div class="collapse navbar-collapse"
+                                id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active"
+                                            aria-current="page"
+                                            href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About
+                                            us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact</a>
+                                    </li>
+                                </div>
+                            </div>
+                        </nav>
+                    </nav>
+                </header>
+                <main>
+                    <div class="row" id="HeroSection">
+                        <div class="col-md-6 col-xs-12">
+                            <h1>DineEase: Exceptional Dining Awaits.</h1>
+                            <p>Dive into culinary wonders with DineEase. We curate
+                            top-rated restaurants, each with distinct flavors
+                            and ambiance. From international dishes to
+                            traditional delights and gastronomic adventures,
+                            find your perfect spot with DineEase.</p>
+                            <button class="btn btn-primary"><img src="images/Search Iconvector.svg">Explore Restaurants</button>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <img src="images/heroillustration.png"
+                                alt="Hero Section">
+                        </div>
+                    </div>
+                    <div id="top3"></div>
+                    <div id="velemeny"></div>
+                    <div id="keresosav"></div>
+                </main>
+                <footer></footer>
+            </div>
+        </body>
+    </html>
