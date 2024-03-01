@@ -1,0 +1,258 @@
+:root{
+    --custom--background-color: rgb(124,58,237);
+    --custom--background-color2: white; 
+}
+
+.btn-primary, .btn-primary:hover{
+    background-color: var(--custom--background-color);
+    border-color: var(--custom--border-color);
+}
+#dineease{
+    padding: 130px;
+}
+h1{
+    font-style: bold;
+}
+#Testimonials{
+    background-color: rgb(207,183,249);
+    padding: 80px;
+}
+.view{
+    color:rgb(94, 52, 167);
+    float: right;
+}
+.cards-text{
+    background-color: rgb(254, 254, 254);
+}
+#Restaurantsearch{
+    text-align: center;
+    
+}
+.se{
+    color: black;
+}
+.show{
+    text-align: center;
+    color: rgb(124, 58, 237);
+}
+.velemeny{
+    background-color: white;
+    padding: 50px;
+}
+
+div .top3card .card-img-top{
+    min-width: 300px;
+    min-height: 280px;
+}
+
+#top3, #top4, #top5{
+    position: relative;
+    width: auto;
+    /* Adj megfelelő szélességet a div-nek */
+    height: auto;
+    /* Adj megfelelő magasságot a div-nek */
+  
+  
+    /* Az alsó bal sarkon lévő kör */
+    &::before {
+      z-index: -5000;
+      content: '';
+      position: absolute;
+      width: var(--circle-diameter);
+      /* Állítsd be a kör szélességét */
+      height: var(--circle-diameter); 
+      /* Állítsd be a kör magasságát */
+      border-radius: 50%;
+      /* Kerekített szélek kialakítása */
+      background-color: var(--background-color-light);
+      /* Válassz egy kör színt */
+      bottom: -50px;
+      left: -20px;
+    }
+  
+    /* A felső jobb sarkon lévő kör */
+    &::after {
+      z-index: -5000;
+      content: '';
+      position: absolute;
+      width: var(--circle-diameter);
+      /* Állítsd be a kör szélességét */
+      height: var(--circle-diameter);
+      /* Állítsd be a kör magasságát */
+      border-radius: 50%;
+      /* Kerekített szélek kialakítása */
+      background-color: var(--background-color-light);
+      /* Válassz egy kör színt */
+      top: 0;
+      right: 0;
+    }
+  
+  
+  }
+  #top3restorants {
+    position: relative;
+    width: 80%;
+    /* Adj megfelelő szélességet a div-nek */
+    height: auto;
+    /* Adj megfelelő magasságot a div-nek */
+  }  
+
+.quote{
+    max-width: 25px;
+}
+
+
+
+/*Contact Us*/
+.information{
+    background-color: var(--custom--background-color);
+    color: white;
+    width: 500px;
+    height: 400px;
+    padding: 30px 50px;
+}
+#message{
+    text-align: right;
+}
+
+.privacy{
+    text-decoration: none;
+    color: white;
+}
+.contactUs{
+    padding: 0px 50px;
+}
+
+
+
+/*About Us*/
+.about{
+    text-align: center;
+}
+.connect{
+    padding: 70px 70px;
+    background-color: rgb(124, 58, 237);
+    color: white;
+
+}
+
+#team{
+    align-items: center;
+}
+
+#szoveg{
+    padding: 30px 245px;
+}
+.btn-secondary, .btn-secondary:hover{
+    background-color: var(--custom--background-color2);
+    color: var(--custom--background-color);
+
+}
+
+.mess{
+    width: 50%;
+}
+
+/*About us horisontal timeline*/
+body{
+    margin-top:25px;
+}
+.hori-timeline .events {
+    border-top: 3px solid #e9ecef;
+}
+.hori-timeline .events .event-list {
+    display: inline-block;        
+    width: 18%;
+    padding-top: 50px;
+    position: relative;
+    text-align: center;
+    margin-right: 0;
+}
+.hori-timeline .events .event-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #dee2e6;
+    top: 0;
+}
+
+.hori-timeline .events .event-list .event-date {
+    position: absolute;
+    top: -12px;
+    left: 0;
+    right: 0;
+    width: 75px;
+    margin: 0 auto;
+    border-radius: 4px;
+
+}
+
+.text{
+    color:rgb(124,58,237);
+}
+
+.hori-timeline .events .event-list:nth-child(odd) .event-date {
+    margin-top: -15px;
+}
+.hori-timeline .events .event-list:nth-child(even) .event-date {
+    margin-top: 15px;
+}
+
+.card {
+    border: none;
+    margin-bottom: 24px;
+    -webkit-box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+    box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+}
+
+/*.bg-soft-primary {
+    background-color: rgb(124,58,237);
+}*/
+
+
+/*Restaurant Search*/
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

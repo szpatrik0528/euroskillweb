@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DineEase Showcase Website - Contant</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+        integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- saját -->
+    <link rel="stylesheet" href="DineEase.css">
+    <script src="DineEase.js"></script>
+</head>
+
+<body>
+    <div class="container" id="sheet">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="#">
+                        <img src="images/Logovector.svg" alt="logo" width="auto" height="auto">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="AboutUs.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="row">
+                <div class="information col-6" >
+                    <h2>Contact Information</h2>
+                    <p>Have an inquiry? Fill out the form to contact our team.</p>
+                    <p><img src="images/phone.svg" alt="phone">+36 30 123 4567</p>
+                    <p><img src="images/email.svg" alt="email" srcset="">support@dineease.com</p>
+                    <p><img src="images/Location Iconvector.svg" alt="location"> 132 Dartmouth Street Boston, Massachusetts 02156 United States</p>
+                    <div class="col-4">
+                        <p><img src="images/Facebook Iconvector.svg" alt="Facbook"><img
+                                src="images/Instagram Iconvector.svg" alt="Instagram"> <img
+                                src="images/Twitter Iconvector.svg" alt></p>
+                    </div>
+                </div>
+                <div class="contactUs col-6">
+                    <h1>Contact Us</h1>
+                    <p>Have an inquiry? Fill out the form to contact our team.</p>
+                    <div class="container">
+                        <form action="#" method="post">
+                            <div class="mb-3">
+                                <input type="text" name="First Name" placeholder="First Name" size="25" maxlength="50">
+                                <input type="text" name="Last Name" placeholder="Last Name" size="25" maxlength="50">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" name="Email" placeholder="Email" size="25" maxlength="50">
+                                <input type="number" name="Phone Number" placeholder="Phone Number" size="25"
+                                    maxlength="50">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" name="Message" placeholder="Message" size="25">
+                            </div>
+                            <button class="btn btn-primary" id="message">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="container-fluid bg-dark text-white">
+            <div class="container d-flex justify-content-between row mx-auto py-5">
+                <div class="col-6">
+                    <img src="images/logomark.png" alt="Logomark">
+                    <p><a href="Privacy.html" class="privacy">Privacy Policy</a></p>
+                    <p>+36 30 123 4567 support@dineease.com</p>
+                    <p>&COPY; 2024 - All rights reserved</p>
+    
+                </div>
+                <div class="col-4">
+                    <p>Follow Us</p>
+                    <p><img src="images/Facebook Iconvector.svg" alt="Facbook"><img src="images/Instagram Iconvector.svg"
+                            alt="Instagram"> <img src="images/Twitter Iconvector.svg" alt></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

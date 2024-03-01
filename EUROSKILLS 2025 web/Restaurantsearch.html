@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DineEase Showcase Website - Home Page</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+        integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- saját -->
+    <link rel="stylesheet" href="DineEase.css">
+    <script src="DineEase.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div id="Restaurantsearch">
+                <h1>Find Your Perfect Dining Spot</h1>
+                <p>Search by Cuisine, Location, or Name</p>
+
+                <div class="Restaurant col-6">
+                    <h1>Contact Us</h1>
+                    <p>Have an inquiry? Fill out the form to contact our team.</p>
+                    <div class="container">
+                        <form action="#" method="post">
+
+                                <input type="text" name="Location" placeholder="Location" size="25" maxlength="50">
+                                <input type="text" name="Name" placeholder="Name" size="25" maxlength="50">
+                                <img src="images/Search Iconvector.svg" alt="search">
+
+                            <button class="btn btn-primary" id="message">Simple search</button>
+                        </form>
+                    </div>
+                </div>
+
+                
+                <div class="row" id="top5">
+                    <h1>Featured Restaurants</h1>
+                    <h4>Discover Unforgettable Dining Destinations</h4>
+                    <div class="row col-9 p-5 m-5" id="top3restorants">
+
+
+                    </div>
+
+                </div>
+                <div class="show">
+                    <p>Show more »</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
